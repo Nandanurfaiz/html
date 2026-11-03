@@ -117,3 +117,42 @@ table {
     border: 3px solid rgb(36, 47, 211);
 }
 
+.hero {
+    background-image: url(../img/hero.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 15%;
+    border-bottom: 5px solid black;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 20px;
+}
+
+.info p span {
+    color: crimson;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 {
+    flex: 1;
+}
+
+.hero2 {
+    flex: 1;
+    background-image: url(../img/hero3.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
